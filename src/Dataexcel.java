@@ -9,7 +9,7 @@ import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 public class Dataexcel {
-
+// tow dimensional
 	public static void main(String[] args) throws FileNotFoundException, IOException {
 XSSFWorkbook workbook=new XSSFWorkbook(new FileInputStream(new File("C:\\Users\\chaitu\\Desktop\\way2sms.xlsx")));
 XSSFSheet sheet=workbook.getSheetAt(0);
